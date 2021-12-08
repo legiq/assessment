@@ -5,9 +5,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Bean {
 
-    private ValidBean someBean;
+    private SomeBean someBean;
 
-    public Bean (ValidBean someBean) {
+    public Bean (SomeBean someBean) {
         this.someBean = someBean;
     }
 
@@ -15,7 +15,7 @@ public class Bean {
         return someBean.doStaff();
     }
 
-    public void setSomeBean(ValidBean someBean) {
+    public void setSomeBean(SomeBean someBean) {
         this.someBean = someBean;
     }
 }

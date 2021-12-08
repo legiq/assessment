@@ -6,6 +6,7 @@ import java.util.List;
 public class Generic {
 
     public static void main(String[] args) {
+
         List<Object> objectList = new ArrayList<>();
         List<Number> numberList = new ArrayList<>();
         List<Integer> integerList = new ArrayList<>();
@@ -16,7 +17,6 @@ public class Generic {
         List<Number> genericNumberList = new ArrayList<>();
         List<? extends Number> genericExtendsNumberList = new ArrayList<>();
         List<? super Number> genericSuperNumberList = new ArrayList<>();
-
 
 //        genericNumberList.add(object); // 1
 //        genericNumberList.add(number); // 2

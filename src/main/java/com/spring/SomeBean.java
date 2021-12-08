@@ -1,6 +1,6 @@
 package com.spring;
 
-public class ValidBean {
+public class SomeBean {
 
     public String doStaff() {
         return "kekeke";

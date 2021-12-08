@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class WebConfig {
 
     @Bean
-    public ValidBean validBean() {
-        return new ValidBean();
+    public SomeBean someBean() {
+        return new SomeBean();
     }
 }
